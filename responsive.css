@@ -70,7 +70,7 @@
 }
 
 
-@media only screen and (max-width: 811px) {
+@media only screen and (min-width: 767px) and (max-width: 811px) {
 
     body {
         overflow-x: hidden;
@@ -84,7 +84,7 @@
 
 }
 
-@media only screen and (max-width: 567px)  {
+@media only screen and (min-width: 567px) and (max-width: 576px) {
     body {
         overflow-x: hidden;
     }
@@ -125,7 +125,7 @@
     }
 } 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 270px) and (max-width: 553px) {
 
     body {
         overflow-x: hidden;
@@ -137,16 +137,25 @@
 
     .grid-item p {
         line-height: 15px;
+        font-size: 9px;
     }
 
     .grid-item img {
         width: 22px;
+        margin-bottom: 0px;
     }
 
+    .grid-container {
+        grid-template-columns: auto  auto;
+        height: 54vh;
+    }
 
     .grid-item h2 {
-        
+        margin-bottom: 4px;
         font-size: 14px;
     }
 
+    .footer {
+        padding-top: 0px;
+    }
 }
