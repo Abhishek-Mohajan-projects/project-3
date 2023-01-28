@@ -8,10 +8,6 @@
 }
 
 
-
-
-
-
 @media only screen and (max-width: 992px) {
 
     .hamburger {
@@ -128,3 +124,29 @@
         font-size: 21px;
     }
 } 
+
+@media only screen and (max-width: 320px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .text h1 {
+        font-size: 17px;
+    }
+
+    .grid-item p {
+        line-height: 15px;
+    }
+
+    .grid-item img {
+        width: 22px;
+    }
+
+
+    .grid-item h2 {
+        
+        font-size: 14px;
+    }
+
+}
